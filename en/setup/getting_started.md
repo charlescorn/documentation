@@ -22,6 +22,8 @@ Once you've installed Mautic you will need to create a few standard cron jobs to
 
 `php /path/to/mautic/app/console mautic:campaigns:trigger`
 
+You will need to change /path/to/mautic/ to the location of your Mautic installation. You may also need to change php, depending on where php is instaled on your host. Contact your host if in doubt about the location of php.
+
 Review [Cron Jobs](./../setup/cron_jobs.html) for more information on these and other optional cron jobs.
 
 ## Step 3: Download the IP lookup service database
